@@ -1,7 +1,8 @@
 applications:
 - name: TornadoHW
   mem: 64
-  framework: python
-    startfile:  tornadoHW.py
-  runtime: python34
+  framework: 
+    type: python
+    runtime: python34
+  command: python tornadoHW.py
 
