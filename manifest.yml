@@ -1,8 +1,0 @@
-applications:
-- name: TornadoHW
-  mem: 64
-  framework: 
-    type: python
-    runtime: python34
-  command: python tornadoHW.py
-
